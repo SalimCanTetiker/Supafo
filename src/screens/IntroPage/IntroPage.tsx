@@ -1,6 +1,7 @@
-import { Image, View } from 'react-native'
+import { Image, View, Text } from 'react-native'
 
 import CustomButton from '../../components/CustomButton/CustomButton'
+import CheckBox from '../../components/CheckBox/CheckBox'
 
 const IntroPage = () => {
   return (
@@ -13,6 +14,14 @@ const IntroPage = () => {
       <CustomButton title={"Giriş Yap"} onPress={null} />
       <CustomButton title={"Kayıt Ol"} theme={"secondary"} onPress={null} />
       </View>
+      <View style={{marginTop: 40}}>
+        <CheckBox />
+        <Text>react native</Text>
+        </View>
+        <View style={{marginTop: 40}}>
+        <CheckBox />
+        <Text>React Native</Text>
+        </View>
     </View>
   )
 }
