@@ -1,3 +1,19 @@
+# Supafo App
+
+## IOS Screenshots
+
+<img src="https://github.com/user-attachments/assets/d18ac8a5-2291-4d22-b299-11e9234962f7" width='250' height='500' />
+<img src="https://github.com/user-attachments/assets/b02ff011-f193-42b7-a9be-40f609ad8902" width='250' height='500' />
+<img src="https://github.com/user-attachments/assets/9ffdd13d-70d8-40a7-b680-0a8452707bf5" width='250' height='500' />
+<img src="https://github.com/user-attachments/assets/47f7bae4-d84d-477e-9890-7ce9a93033c2" width='250' height='500' />
+
+## Android Screenshots
+
+<img src="https://github.com/user-attachments/assets/8e50282c-4799-45a3-ba42-1ac80b0ffb79" width='250' height='500' />
+<img src="https://github.com/user-attachments/assets/cf1ab117-1e09-475c-923d-76bde30b700d" width='250' height='500' />
+<img src="https://github.com/user-attachments/assets/1c351644-fa13-4604-b72a-da3813df5ce9" width='250' height='500' />
+<img src="https://github.com/user-attachments/assets/b2f387f4-92c7-441a-9e05-6f974615a846" width='250' height='500' />
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
