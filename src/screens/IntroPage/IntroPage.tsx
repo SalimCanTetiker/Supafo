@@ -1,19 +1,23 @@
 import { Image, View, Text, Pressable } from 'react-native'
 import { useDispatch } from 'react-redux';
 import { toggleModal } from '../../redux/modalSlice'
+import { useNavigation } from '@react-navigation/native';
 
 import CustomButton from '../../components/CustomButton/CustomButton'
 import CheckBox from '../../components/CheckBox/CheckBox'
 import ModalComponent from '../../components/ModalComponent/ModalComponent'
+import CookieConsent from '../../components/CookieConsent/CookieConsent';
 
 import styles from './IntroPage.style'
 
 const IntroPage = () => {
 
   const dispatch = useDispatch();
-  
+  const navigation = useNavigation()
+
   return (
     <View style={styles.container}>
+      <CookieConsent/>
       <View style={styles.Image_container}>
         <Image
           source={require('../../assets/supafo_logo.png')}
@@ -21,8 +25,8 @@ const IntroPage = () => {
         />
       </View>
       <View style={styles.Button_container}>
-        <CustomButton title={"Giriş Yap"} onPress={null} />
-        <CustomButton title={"Kayıt Ol"} theme={"secondary"} onPress={null} />
+        <CustomButton title={"Giriş Yap"} onPress={() => navigation.navigate('Login')} />
+        <CustomButton title={"Kayıt Ol"} theme={"secondary"} onPress={() => navigation.navigate('SignUp')} />
       </View>
       <View style={styles.CheckBox_container}>
         <View style={styles.first_checkbox}>
