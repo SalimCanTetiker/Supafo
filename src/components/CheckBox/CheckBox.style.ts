@@ -2,9 +2,7 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
-        alignItems: 'center',
-        justifyContent: 'center',
+        flex: 1
       },
       checkboxButton: {
         width: 30,
@@ -12,12 +10,7 @@ const styles = StyleSheet.create({
         borderWidth: 2,
         borderColor: '#66ae7c',
         borderRadius: 5,
-        alignItems: 'center',
-        justifyContent: 'center',
-        marginBottom: 10,
-      },
-      label: {
-        fontSize: 18,
+        zIndex: 1
       },
 })
 
